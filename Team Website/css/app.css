@@ -1,0 +1,64 @@
+/*   GENERAL FORMATS  */
+
+body {
+    width: auto;
+    background-color: gray;
+}
+
+h1 {
+    color: black;
+    font-family: starjedi;
+    font-size: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration-color: none;
+}
+
+
+li {
+    display: inline-block;
+}
+    
+
+/*  LOGO  */
+
+#logo {
+    width: 150px;
+}
+
+/*  HEADER  */
+
+#headerBar {
+    padding-top: 18px;
+    width: auto;
+    font-size: 28px;
+}
+
+#teamHome {
+    color: black;
+}
+
+
+/*  MENU  */
+
+#menu {
+    width: 250px;
+    border-color: red;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: blue;
+}
+
+#navLink {
+    padding: 0.5em;
+}

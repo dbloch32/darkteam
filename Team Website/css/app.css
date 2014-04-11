@@ -5,6 +5,7 @@
     src: url(/css/fonts/Starjedi.ttf);
 }
 
+
 /*   GENERAL FORMATS  */
 
 body {
@@ -46,6 +47,7 @@ li {
     padding-right: 70px;
 }
 
+
 /*  HEADER  */
 
 #headerBar {
@@ -68,9 +70,8 @@ li {
     min-width: 250px;
     width: 250px;
     vertical-align: top;
-    border: 8px;
-    border-color: red;
-    border-radius: 2px;
+    border: 2px solid black;
+    border-radius: 8px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -86,9 +87,8 @@ li {
 
 .model_img{
     width: 300px;
-}
-=======
     vertical-align: top;
+    padding: 10px;
 }
 
 
@@ -99,17 +99,21 @@ li {
     padding-left: 30px;
     min-width: 650px;
     width: 650px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 
 #footer {
     font-size: 10px;
     background-color: darkgray;
-    width: 750px;
-    min-width: 750px;
+    width: 653px;
+    min-width: 653px;
     padding-left: 300px;
     padding-top: 4px;
     padding-bottom: 4px;
+    border: 2px solid black;
+    border-radius: 6px;
 }
 
 #outer {

@@ -134,3 +134,11 @@ li {
      width:600px;
 }
 
+
+.content #storyboard_images img{
+    width: 900px;
+}
+
+#story {
+    width: 600px
+}

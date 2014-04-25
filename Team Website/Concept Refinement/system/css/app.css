@@ -1,0 +1,144 @@
+/*   PRELOAD FONTS   */
+
+@font-face {
+    font-family: starjedi;
+    src: url(/css/fonts/Starjedi.ttf);
+}
+
+
+/*   GENERAL FORMATS  */
+
+body {
+    width: auto;
+    background-color: gray;
+    //text-align: center;
+    font-family: helvetica;
+}
+
+h1 {
+    color: black;
+    font-family: starjedi;
+    font-size: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration-color: none;
+}
+
+p {
+    text-align: left;
+}
+
+li {
+    display: inline-block;
+}
+    
+
+/*  LOGO  */
+
+#logo {
+    width: 170px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+/*  HEADER  */
+
+#headerBar {
+    min-width: 900px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: auto;
+    font-size: 40px;
+    font-family: starjedi;
+}
+
+#teamHome {
+    color: black;
+}
+
+
+/*  MENU  */
+
+#menu {
+    font-weight: 700;
+    font-size: 20px;
+    min-width: 250px;
+    width: 250px;
+    vertical-align: top;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #242424;
+}
+
+#navLink {
+    padding: 0.5em;
+<<<<<<< HEAD
+}
+
+/*   Concept Model IMAGES   */
+
+.model_img{
+    width: 300px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+
+/*  CONTENT LAYOUT  */
+
+.content {
+    background-color: #bfbfbf;
+    padding-left: 30px;
+    min-width: 650px;
+    width: 650px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+
+#footer {
+    font-size: 10px;
+    background-color: darkgray;
+    width: 653px;
+    min-width: 653px;
+    padding-left: 300px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+#outer {
+    border: 8px;
+    border-color: orange;
+}
+>>>>>>> FETCH_HEAD
+
+#names {
+    text-indent: none;
+    display: inline-block;
+    text-align: center;
+}
+
+#middleimage {
+     width:600px;
+}
+
+
+.content #storyboard_images img{
+    width: 900px;
+}
+
+#story {
+    width: 600px
+}

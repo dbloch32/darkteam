@@ -9,9 +9,9 @@
 
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
     
-    <link href="../storyboard/css/app.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/app.css" rel="stylesheet" type="text/css" media="all" />
     
-    <link href="../storyboard/css/fonts/Starjedi.ttf" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
     
 </head>
     
@@ -21,13 +21,13 @@
     <div id="outer">
         <div id="topBorder">
         </div>
-    </div>
+    
     
     <!--Header-->
     <div id="headerBar">
-        <img src="../storyboard/images/darkteamlogo.png" id="logo">
+        <img src="images/darkteamlogo.png" id="logo">
         
-            <a href="web.mit.edu/2.744">2.744</a> <a href="index.html" id="teamHome">The Dark Team</a>
+            <a href="http://web.mit.edu/2.744">2.744</a> <a href="index.html" id="teamHome">The Dark Team</a>
         
     </div>
     
@@ -38,12 +38,12 @@
                 <td id="menu">
                 <ul>
                     <li id="navLink">
-                            <a href="../storyboard/index.html">Our Team</a>
+                            <a href="index.html">Our Team</a>
                     </li>
                         <br>
             
                     <li id="navLink">
-                        <a href="../storyboard/storyboards.html">Storyboards</a>
+                        <a href="storyboards.html">Storyboards</a>
                     </li>
                         <br>
             
@@ -68,38 +68,164 @@
                         <br>
                 </ul>
                 </td>
-                
-                <td class="content">
     
-                <h2>Eric Crespo</h2>
-                <h1>Circular Time Travel Room</h1>
-                    <hr>
-                <img src="../storyboard/images/sketch_model_pics/eric_Time_Device.jpeg" class="model_img">
-                <img src="../storyboard/images/sketch_model_pics/eric_CatchingFire.jpg" class="model_img">
-                <h3>Background</h3>
-                <p>The idea is for the 5Wits group to come into a circular room, a <i>Time Travel Room</i>. The room design is based out of the <i>Catching Fire Clock Arena</i>, which is divided into 12 equal segments. Similar to the movie, each segment of the room will be activated at a different time. This means that every user will have to pay attention to when their section will be activated (possibly indicated by ilumitating the radii that border their section).</p>
-                <img src="../storyboard/images/sketch_model_pics/eric1.JPG" class="model_img">
-                <img src="../storyboard/images/sketch_model_pics/eric2.JPG" class="model_img">
-                <p>Each section will have a series of circular dials on the wall. These dials will be rotated in order to select a symboled time. The symbols to be selected will be displayed somewhere in the room on a "Time Display Device" that we will design in the next phase. We plan on placing this display on the middle of the room, so everyone can see it from their respective locations.</p>
-                <img src="../storyboard/images/sketch_model_pics/eric3.JPG" class="model_img">
-                <img src="../storyboard/images/sketch_model_pics/eric4.JPG" class="model_img">
-                <p>The room is envisioned to be 25 feet in diameter and 10 feet tall. To come in, a sliding door will open, such that when it slides closed it keeps the symetry of the 12 sections. To exit, another sliding door will open, either to the future or to the past. </p>
-                    <hr>
+                <td id="about" class="content">
+                    <h3>
+                        Concept Refinement: Time Travel Puzzle Overview
+                    </h3>
+                    <ul id="members">
+                        <li id="member">
+                            <a href="#assembly">Dan</a> |
+                        </li>
+            
+                        <li id="member">
+                            <a href="#experience">Eric</a> |
+                        </li>
+            
+                        <li id="member">
+                            <a href="#door">Daivon</a> |
+                        </li>
+            
+                        <li id="member">
+                            <a href="#assembly">Alice</a> |
+                        </li>
+            
+                        <!--li id="member">
+                            <a href="../connieh/index.html">Connie</a> |
+                        </li-->
+            
+                        <li id="member">
+                            <a href="#assembly">Al</a> |
+                        </li>
+            
+                        <li id="member">
+                            <a href="#door">Ayantu</a>
+                        </li>
+                    </ul>
                     
+                    <h4>
+                    <a id="assembly">System Assembly</a>
+                    <br>
+                    <i>Dan Bloch, Al Mireault, Alice Huang</i></h4>
+                    
+                    <img class="model_img" src="images/selector_angle.JPG">
+                    <img class="model_img" src="images/selector_top.JPG">
+                    <img class="model_img" src="images/selector_explode.JPG">
+                    <img class="model_img" src="images/selector_top_blue.JPG">
+                    <img class="model_img" src="images/selector_side.JPG">
+                    
+                    
+                    <p>
+                    The assembly of the time selection device is pictured above. The system is meant to be permanently mounted on the vertical face of a wall. The system is comprised of four concentric, numbered circles that freely rotate about a fixed axis. (The dials are held within their respective planes using rollers not pictured in the CAD assembly.) The axis itself is a thermal-formed transparent plastic component that resembles a step-pyramid, pictured in color as it will be backlight with LEDs. On the backs of the dials are notches corresponding to each of the ten digits. With each turn of the dial, these notches lock into place with complementary notches mounted on the step-pyramid base. The notches are shown from a side-view below, with the top in a locked position, and the bottom in an unlocked position. The locking notches double as electronic switches and, when the dials are correctly aligned, will be tripped to complete a circuit.
+                    </p>
+                    
+                    <img class="model_img" src="images/selector_connection.JPG">
+                    <img class="model_img" src="images/electronics_housing.JPG">
+                    
+                    <p>
+                    Completing the cicuit sends a signal  to a microcontroller housed within the step-pyramid base, hidden from view. The electronic components within this housing include an Arduino microcontroller, a breadboard, a speaker, LEDs, and several batteries, pictured below.
+                    </p>
+                    
+                    <img class="model_img" src="images/electronics_exploded.JPG">
+                    
+                    <p>
+                    The electronics will work to create the effect of time travel upon the completion of the puzzle. , sending a signal to the microcontroller. When the switches are tripped, the LEDs on the front of the housing will flash and a noise will be activated via the speaker indicating that the combination of dials has been input correctly and time travel has been successful.
+                    </p>
+                    
+                    <h4>
+                    <a id="experience">User Interaction and Experience</a>
+                    <br>
+                    <i>Alice Huang, Eric Crespo</i>
+                    </h4>
+                    
+                    <p>
+                    The puzzle system will be mounted permanently on the vertical face of a wall. There will be six of these puzzle stations distributed evenly throughout a circular room., each representing an aspect of time (year, month, day, etc.). 
+                    </p>
+                    
+                    <p>
+                    A certain combination of numbers and/or characters will need to be set in the correct position on the time selection puzzle in order for the group of users to advance through the adventure. For example, the "Year" puzzle would need to bet to "1969" and the month puzzle would be set to "0012" to witness the first moon landing. The correct combination will be set by turning each disk around its central axis. Setting the correct combination in the correct position will activate the door to the next room. The position of significant characters will be designated to the users by a light along the significant row, demonstrated below.
+                    </p>
+                    
+                    <img class="model_img" src="images/timeselectiondevice.png">
+                    
+                    <p>
+                    The group of users will enter our "Time Traveller Room" with a clue that lets them know a specific date and time to which they can travel to successfully complete the adventure. Ideally, there will be two given options in time, one leading to the future, and one to the past. Depending on which path the users wish to follow, they will experience their adventure accordingly.
+                    </p>
+                    
+                    <p>
+                    As demonstrated earlier, each puzzle can be backlit with LEDs. This could be used to our advantage to help "reset" the puzzle for the next group. Each aspect of time would be color-coded, with a key given to the users beforehand. For example, green could represent the "year" puzzle, while blue could represent the "month" puzzle. Switching the colors of the LEDs after a group exits the room would serve to switch around the entire puzzle, resetting it for the next group.
+                    </p>
+                    
+                    <h4>
+                    <a id="door">Exit Door</a>
+                    <br>
+                    <i>Daivon Deans, Ayantu Regassa</i></h4>
+                    
+                    <p>
+The door mechanism is relatively straightforward. A sliding door is suspended on rollers between two panels, with each wall panel containing its own mounted time selection device (mounted time selectors not shown in CAD). This way it can be opened without compromising the shape and symmetric effect of the circular room. The reduced friction from the rollers also allows for the potential automatic actuation of the door upon input of the correct combination of dials, something that could be easily integrated into the current electronics system.
+                    </p>
+                    
+                    <img class="model_img" src="images/door_assembly.JPG">
+                    <img class="model_img" src="images/door_arrow.JPG">
+            
+                        <!--li id="member">
+                            <a href="../connieh/index.html">Connie</a> |
+                        </li-->
+            
+                        <!--li id="member">
+                            <a href="../dbloch/mireault/index.html">Al</a> |
+                        </li>
+            
+                        <li id="member">
+                            <a href="../ayantur/index.html">Ayantu</a>
+                        </li>
+                    </ul-->
+                    <br>
+                    <br>
+                    <a href="concept_refinement.html" id="top">Back to Top</a>
+                    <br>
+                    <br>
+                    
+                    <!--ul id="members">
+                        <li id="member">
+                            <a href="../dbloch/index.html">Dan</a> |
+                        </li>
+            
+                        <li id="member">
+                            <a href="../ecrespo/index.html">Eric</a> |
+                        </li>
+            
+                        <li id="member">
+                            <a href="../daivon/index.html">Daivon</a> |
+                        </li>
+            
+                        <li id="member">
+                            <a href="../ahuang27/index.html">Alice</a> |
+                        </li>
+            
+                        <!--li id="member">
+                            <a href="../connieh/index.html">Connie</a> |
+                        </li-->
+            
+                        <!--li id="member">
+                            <a href="../dbloch/mireault/index.html">Al</a> |
+                        </li>
+            
+                        <li id="member">
+                            <a href="../ayantur/index.html">Ayantu</a>
+                        </li>
+                    </ul-->
                 </td>
-                
             </tr>
-            </table>
-    
+        </table>
+            
             <!--Footer-->
             
             <div id="footer">
                 Copyright 2014  |  2.744 Dark Team
             </div>
     </div>
-    
-    
-    
-    
+            
+            
 </body>
 </html>

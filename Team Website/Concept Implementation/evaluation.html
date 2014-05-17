@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>All Hail Darth Wallace</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    
+    <link href="css/app.css" rel="stylesheet" type="text/css" media="all" />
+    
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+    
+</head>
+    
+<body>
+    
+    <!--General Content Container-->
+    <div id="outer">
+        <div id="topBorder">
+        </div>
+    
+    
+    <!--Header-->
+    <div id="headerBar">
+        <img src="images/darkteamlogo.png" id="logo">
+        
+            <a href="http://web.mit.edu/2.744">2.744</a> <a href="index.html" id="teamHome">The Dark Team</a>
+        
+    </div>
+    
+    <!--Table to divide menu and main page content-->
+    
+        <table id="iHateTables">
+            <tr id="stuff">
+                <td id="menu">
+                <ul id="navMenu">
+                    <li id="navLink">
+                            <a href="index.html">Overview</a>
+                    </li>
+                        <br>
+            
+                    <li id="navLink">
+                        <a href="experience.html">User Experience</a>
+                    </li>
+                        <br>
+            
+                    <li id="navLink">
+                        <a href="design.html">Design Overview</a>
+                    </li>
+                        <br>
+                    
+                    <li id="navLink">
+                        <a href="implementation.html">Implementation</a>
+                    </li>
+                        <br>
+            
+                    <li id="navLink">
+                        <a href="evaluation.html">Evaluation</a>
+                    </li>
+                        <br>
+            
+                    <li id="navLink">
+                        <a href="about.html">About</a>
+                    </li>
+                        <br>
+            
+                    <!--li id="navLink">
+                        <a href="concept_implementation.html">Concept Implementation</a>
+                    </li>
+                        <br-->
+                </ul>
+                </td>
+    
+                <td id="about" class="content">
+                    <h2>Evaluation</h2>
+                    
+                    <b>Cost</b>
+                    <p>
+The total cost of prototyping the time selection device for the 5-Wits Time Travel experience we designed was about $335. A large portion of this cost can be attributed to high expedited shipping costs. Excluding these shipping costs, we spent a total of $230, $90 on electronics and $135 on structural materials. However, we only ended up using a small portion of the electronics and about 75% of the acrylic ordered. In other words, the cost of the prototype itself was about $155.
+                    </p>
+                    <p>
+If this design is implemented by 5-Wits, the material cost of the time selection device will be even less. The electronics and acrylic can be bought in bulk which would reduce costs significantly. In addition, material costs can be further reduced by modifying the design so that all four base and axle sets (depicted in the image below) can be one thermoformed part. This design change would include four additional parts to hold the ring in place. However, even with these additional parts, the material costs will be greatly reduced by the design change.
+                    </p>
+                    <img id="design_pic" src="images/labeled_parts.JPG">
+                    <br>
+                    <br>
+<b>Challenges</b>
+                    <p>
+We had several challenges during the construction of the time selection device concept. The major challenges we faced are listed below.
+                    </p>
+                    <ul id="challenges">
+                        <li>
+Electronic component and wiring was not robust. We needed an enclosure for the electronic components so that they are not damaged.
+                            <ul>
+                                <li>
+Though the electronics of the time selection device will not be exposed when the device is implemented, they should still be robust to reduce the risk of failure.
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                    
+The distances between the hall effect sensors and magnets were greater than expected.
+                            <ul>
+                                <li>
+Due to a series of design changes, which included adding spacers between the base and axle to reduce friction and changing the orientation of the rings to improve aesthetics, a large gap between the sensors and magnets was created. The magnets were originally expected to be directly on top of the sensors. The increased distance meant the system had a higher failure rate.
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                    
+The geometry of device components was such that the light from LEDs was not diffused through the symbols adequately.
+                            <ul>
+                                <li>
+This meant that the user feedback function was greatly limited.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+The prototype was not structurally robust.
+                            <ul>
+                                <li>
+Though the acrylic was sturdy and relatively robust for the purpose of the device. However, we had used epoxy as the main adhesive for mounting the acrylic parts to one another. This did not make for a robust structure. In fact, the part can be relatively easily separated.
+                                </li>
+                            </ul>
+                        </li>
+                       <li>             
+There was more friction between the rings and the other components of the device than was ideal.
+                           <ul>
+                                <li>
+The presence of this friction made for a rotating motion that was not as smooth as we would have liked. It also lead to scratching on the bottom of the rings which could lead to further problems in the rotation of the rings.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+
+<b>Future Improvements</b>
+                    <ul id="improvements">
+                        <li>
+Combine all four base and axle sets into one thermoformed part to improve manufacturability and robustness of structure, as well as reduce material costs.
+                        </li>
+                        <li>
+Use RFID sensors instead of hall effect sensors to identify the active symbol in order to increase the versatility of the puzzle.
+Incorporate an encasing for the electronics to increase robustness.
+Use variable color LEDs to make the puzzle easily resettable. 
+Use a dedicated microcontroller instead of an Arduino microcontroller to reduce material costs.
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+            
+            <!--Footer-->
+            
+            <div id="footer">
+                Copyright 2014  |  2.744 Dark Team
+            </div>
+    </div>
+            
+            
+</body>
+</html>
+
